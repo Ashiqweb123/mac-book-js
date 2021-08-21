@@ -20,7 +20,7 @@
                 <div class="col-md-5 col-1">
                     <img src="images/mac.png" class="img-fluid" alt="...">
                 </div>
-                <div class="col-md-7 col-1">
+                <div class="col-md-7 col-1 py-3 ">
                     <h1 class="text-center">
                         Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
 
@@ -28,14 +28,14 @@
                         Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard - US English
 
                     </p>
-                    <h3>Memory</h3>
+                    <h3 class="mb-3">Memory</h3>
                     <button id='8-GB' class="btn btn-primary">
                         8GB unified memory
                         </button>
                     <button id="16-GB" class="btn btn-success">
                         16GB unified memory
                         </button>
-                    <h3>memory Storage
+                    <h3 class="mb-3">memory Storage
                     </h3>
                     <button id="ssd-256" class="btn btn-primary">
                        
@@ -47,12 +47,12 @@
                     <button id="ssd-1TB" class="btn btn-success">
                         1TB SSD storage
                         </button>
-                    <h3>your delivery option
+                    <h3 class="mb-3">your delivery option
                     </h3>
-                    <button id='without-delivery' class="btn btn-primary">
+                    <button id='withOutDelivery' class="btn btn-primary">
                         Friday, Aug 25 FREE Prime Delivery
                         </button>
-                    <button id='with-delivery' class="btn btn-success">
+                    <button id='withDelivery' class="btn btn-success">
                         Aug 21 Delivery charge $20
                         </button>
                 </div>
@@ -84,7 +84,7 @@
                         </tr>
                         <tr>
                             <th scope="row">Total</th>
-                            <td>$<span id="total-id">1299</span></td>
+                            <td>$<span id="total-amount">1299</span></td>
 
                         </tr>
                     </tbody>
@@ -102,14 +102,14 @@
         <section class="promo-code mt-5 ">
             <div class="row ">
                 <div class="promo text-center">
-                    <input type="text" placeholder="Enter Your Promo Code">
-                    <button class="btn btn-success">Add promo</button>
+                    <input id='promo-user' type="text" placeholder="Enter Your Promo Code">
+                    <button id="promoCode" class="btn btn-success">Add promo</button>
                 </div>
             </div>
             <hr>
-            <div class="promo-text">
+            <div>
                 <h1 class="text-center">
-                    Total- $<span>1299</span>
+                    Total- $<span id="promo-text">1299</span>
                 </h1>
             </div>
         </section>
